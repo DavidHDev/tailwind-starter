@@ -15,6 +15,7 @@ const runCommand = command => {
 const repoName = process.argv[2];
 const gitCloneCommand = `git clone --depth 1 https://github.com/DavidHDev/tailwind-starter ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
+const removeBin = `rmdir bin`;
 
 console.log(`Cloning the ${repoName} repository...`);
 const checkedOut = runCommand(gitCloneCommand)
@@ -25,6 +26,10 @@ console.log(`Installing dependencies for ${repoName}`);
 const installedDeps = runCommand(installDepsCommand);
 
 if (!installedDeps) process.exit(-1);
+
+const removedBin = runCommand(removeBin);
+if(!removedBin) console.error('Tried to remove bin folder but failed! Delete it manually!');
+
 
 console.log(`All done! Have fun using ${repoName} 🚀`);
 console.log('  ');
