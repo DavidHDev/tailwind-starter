@@ -1,7 +1,7 @@
 {
   "name": "@david-webdev/tailwind-starter",
   "description": "A quick setup for Tailwind CSS using Vite",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "bin": "./bin/cli.js",
   "maintainers": [
     {
