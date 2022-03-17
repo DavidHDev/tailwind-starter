@@ -27,6 +27,8 @@ const installedDeps = runCommand(installDepsCommand);
 if (!installedDeps) process.exit(-1);
 
 console.log(`All done! Have fun using ${repoName} 🚀`);
+console.log('  ');
 console.log('----- NEXT STEPS -----');
-console.log(`cd ${repoName}`)
-console.log('npm run dev')
+console.log('   ');
+console.log(`1. Check out your project --> cd ${repoName}`);
+console.log('2. Start your server --> npm run dev');
