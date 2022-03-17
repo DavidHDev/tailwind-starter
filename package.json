@@ -1,0 +1,39 @@
+{
+  "name": "tailwind-starter",
+  "description": "A quick setup for Tailwind CSS using Vite",
+  "version": "1.0.0",
+  "maintainers": [
+    {
+      "name": "David Haz",
+      "email": "contact@davidhaz.com",
+      "web": "https://instagram.com/david.webdev/"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/DavidHDev/tailwind-starter.git"
+    }
+  ],
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidHDev/tailwind-starter.git"
+  },
+  "keywords": [
+    "css, tailwindcss, tailwind, postcss,"
+  ],
+  "author": "David Haz",
+  "license": "ISC",
+  "homepage": "https://github.com/DavidHDev/tailwind-starter",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.7.10"
+  }
+}
