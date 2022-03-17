@@ -1,6 +1,12 @@
 # Get started with Tailwind CSS & Vite fast
 A quick setup for you to use Tailwind CSS with Vite
-## The Steps to Get Started
+
+
+## Fastest Way To Start
+```
+npx @david-webdev/tailwind-starter myApp
+```
+## Get Started Manually
 1. Clone the repository
 ```
 git clone https://github.com/DavidHDev/tailwind-starter.git
